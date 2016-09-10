@@ -1,0 +1,6 @@
+./insert.sh  text.txt
+
+text.txt
+cmd  subCmd Id     Id
+
+0xXX 0xXX   123456 654321
