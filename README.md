@@ -1,4 +1,5 @@
-# shell
+# 
+shell
 contains some script for mark the grammar
 
 ## getlogdata_read_date_set_cal_xargx
@@ -15,3 +16,8 @@ contains some script for mark the grammar
 - awk printf sprintf rshift and lshift or strtonum
 - for
 
+## curl_sha256sum_cut
+- sha256sum
+- date
+- curl
+- cut
