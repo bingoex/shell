@@ -27,3 +27,11 @@ contains some script for mark the grammar
 - ipcs
 - swapoff/swapon
 - sync
+
+## static_swa_use
+- for
+- find 
+- egrep
+- cut
+- /dir smaps
+- let
