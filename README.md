@@ -21,3 +21,9 @@ contains some script for mark the grammar
 - date
 - curl
 - cut
+
+## memory_claer
+- xargs
+- ipcs
+- swapoff/swapon
+- sync
