@@ -35,3 +35,9 @@ contains some script for mark the grammar
 - cut
 - /dir smaps
 - let
+
+## check_remote_conn
+- netstat
+- awk
+- sort
+- uinq
