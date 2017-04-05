@@ -1,6 +1,5 @@
-# 
-shell
-contains some script for mark the grammar
+# shell
+提供实用shell脚本，并记录语法demo
 
 ## getlogdata_read_date_set_cal_xargx
 - xargs -i {}
@@ -36,8 +35,12 @@ contains some script for mark the grammar
 - /dir smaps
 - let
 
-## check_remote_conn
+## check\_remote\_conntor
+监控并打印连接本机某端口（可配）的‘远端‘机器ip
+- export
 - netstat
+- grep
 - awk
 - sort
 - uinq
+
