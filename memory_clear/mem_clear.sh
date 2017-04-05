@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#remote shm which attach is 0
+#rm shm which attach is 0
 /usr/bin/ipcs -m | /bin/sed '1,3d' | /bin/sed '$d' | /bin/awk '{if($6 == 0) print $2}' | /usr/bin/xargs -ti /usr/bin/ipcrm -m {}
 
 #clear swap
