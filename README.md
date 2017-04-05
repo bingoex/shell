@@ -1,5 +1,7 @@
 # shell
 提供实用shell脚本，并记录语法、demo(无实际意义)、linux命令
+- demo结尾命名的目录均为语法demo，不存在实际意义
+- 其他命名的目录均为实用性脚本
 
 ## online\_log\_demo
 日志捞取脚本demo
