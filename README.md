@@ -1,7 +1,7 @@
 # shell
 提供实用shell脚本，并记录语法、demo(无实际意义)、linux命令
 
-## online_log_demo
+## online\_log\_demo
 日志捞取脚本demo
 - find -maxdepth
 - xargs -i {}
@@ -10,7 +10,8 @@
 - while read -d
 - $(()) ：calculate
 
-## mysqlopt_mysql_for_awk
+## batch\_operation\_demo
+批量操作demo
 - mysql
 - gawk
 - awk printf sprintf rshift and lshift or strtonum
@@ -31,11 +32,13 @@
 - swapoff/swapon
 - sync
 
-## static_swa_use
+## static\_swa\_use
+统计运行进程使用swap量
 - for
 - find 
-- egrep
 - cut
+- cut
+- egrep
 - /dir smaps
 - let
 

@@ -13,7 +13,6 @@ MYSQL_CMD="mysql -N -B --connect_timeout=10 -uXXXX -pXXXX tablename "
 DATA_FILE="$1"
 
 if [ -f $DATA_FILE ];then
-
 	#garmmer mysql
     mysql_query=`cat $DATA_FILE | awk '
     BEGIN {print "DELETE FROM tablename WHERE " } 
@@ -22,7 +21,6 @@ if [ -f $DATA_FILE ];then
       printf("%s (id = %s) ", pivot, $1) 
     } 
     END {print ";"}'`
-
 
     for HOST in $HOSTS; do
       mysql_cmdstr=$MYSQL_CMD" -h "$HOST 

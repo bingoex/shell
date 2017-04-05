@@ -1,6 +1,4 @@
 #!/bin/bash
-# Get current swap usage for all running processes
-# just for linux like system which have /prov dir
 
 PROC_SUM=0
 TOTAL=0
