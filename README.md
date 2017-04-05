@@ -1,5 +1,5 @@
 # shell
-提供实用shell脚本，并记录语法demo
+提供实用shell脚本，并记录语法、demo
 
 ## getlogdata_read_date_set_cal_xargx
 - xargs -i {}
@@ -16,10 +16,11 @@
 - for
 
 ## curl_sha256sum_cut
-- sha256sum
+使用sha256sum计算密文并发送http请求
 - date
-- curl
-- cut
+- sha256sum
+- cut -d
+- curl -H
 
 ## memory_claer
 - xargs
