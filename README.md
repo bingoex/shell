@@ -1,12 +1,13 @@
 # shell
-提供实用shell脚本，并记录语法、demo、linux命令
+提供实用shell脚本，并记录语法、demo(无实际意义)、linux命令
 
-## getlogdata_read_date_set_cal_xargx
-- xargs -i {}
+## online_log_demo
+日志捞取脚本demo
 - find -maxdepth
+- xargs -i {}
 - set -x
-- date
-- read -d
+- date -d{日期} +%s
+- while read -d
 - $(()) ：calculate
 
 ## mysqlopt_mysql_for_awk

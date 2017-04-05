@@ -1,4 +1,5 @@
 #!/bin/bash
+# txt存放捞取日志的key
 
 #grammar xargs -i {}
 #grammar find -maxdepth
