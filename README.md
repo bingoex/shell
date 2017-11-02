@@ -53,3 +53,8 @@
 - sort
 - uinq
 
+## refresh\_web
+- RANDOM
+- for arry
+- curl
+- sleep
