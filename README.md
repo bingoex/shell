@@ -54,6 +54,7 @@
 - uinq
 
 ## refresh\_web
+自动刷web脚本
 - RANDOM
 - for arry
 - curl
